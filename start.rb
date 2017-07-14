@@ -1,7 +1,10 @@
 #!/usr/bin/ruby
+Removed the raise to fix the problem
 
 puts "Starting..."
 
-raise RuntimeError, "Don't start! It will explode!"
+
 
 puts "Finished loading 100%"
+
+
